@@ -29,34 +29,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-   <!-- <h3>Fornecedores</h3>
-    <hr>
-    <table border='8'>
-        <thead>
-            <tr>
-                <th>Fornecedores</th>
-                <th>Nome</th>
-                <th>Email</th>
-                <th>Endereço</th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php# foreach($fornecedores as $fornec): ?>
-            <tr>
-                <td>&nbsp; <?=// $fornec["cdfornecedor"] ?> &nbsp;</td>
-                <td>&nbsp; <?=// $fornec["nmfornecedor"] ?> &nbsp;</td>
-                <td>&nbsp; <?=// $fornec["nmemailfornecedor"] ?> &nbsp;</td>
-                <td>&nbsp; <?=// $fornec["nmendereco"] ?> &nbsp;</td>
-            </tr>
-            <?php# endforeach; ?>
-        </tbody>
-    </table>
-    <p>Total Fornecedores <strong><?= count($fornecedores) ?></p>
-    <hr>
--->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="${pageContext.request.contextPath}/index.php">
+    <a class="navbar-brand" href="index.php">
         <i class="bi bi-house-door-fill"></i>
         L.A Rosa
     </a>
@@ -66,10 +41,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="${pageContext.request.contextPath}/index.php">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="${pageContext.request.contextPath}/cadastro.php">Cadastro</a>
+          <a class="nav-link" href="cadastro.php">Cadastro</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
