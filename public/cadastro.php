@@ -37,17 +37,51 @@
     
                 <h1>Ficha de Captação</h1>
 
-        <form>
-            
-            Referencial<input type="text" name="ref"><br>
-            CEP<input type="text" name="ref"><br>
-            Endereço<input type="text" name="log"><br>
-            Número<input type="number" name="num"><br>
-            Complemento<input type="text" name="cop"><br>
-            Bairro<input type="text" name="bai"><br>
-            Cidade<input type="text" name="cid"><br>
-            UF<input type="text" name="uf"><br><br>
+        <form>   
+            Referencial<input class="form-control" type="text" placeholder=" " aria-label="default input example"><br>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Casa
+                </label>
+
+                
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Apto
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Terreno
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Comercial
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Kitnet
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  OUTRO
+                </label>
+                <input class="mb-3" type="text" placeholder="Outro" aria-label="default input example">
+            </div><br><br>
+          
             Quantidade de:<br><br>
+
             Dormitório(s): <input type="number" name="dor"><br> 
             Suíte(s): <input type="number" name="sui"><br> 
             Sala(s): <input type="number" name="sal"><br> 
