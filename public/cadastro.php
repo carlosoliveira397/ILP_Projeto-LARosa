@@ -44,7 +44,7 @@
   </div>
       <ul class="list-group list-group-flush">  
 
-        <form><br>  
+        <form method="POST" action="cadastrar_action"><br>  
             <input class="form-control" type="text" placeholder="Referencial" aria-label="default input example"><br>
 
             <!-- Criação do Radio para seleção de imóvel "Casa" (ln= 51-56) -->
