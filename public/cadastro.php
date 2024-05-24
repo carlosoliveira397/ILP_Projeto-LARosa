@@ -37,7 +37,7 @@
     
                 
 <br>
-
+<!-- Criação do card "Ficha de Captação" (ln= 41-88) -->
 <div class="card" style="width: 28rem;">
   <div class="card-header">
     <h5 class="card-title">Ficha de Captação</h5>
@@ -47,38 +47,42 @@
         <form><br>  
             <input class="form-control" type="text" placeholder="Referencial" aria-label="default input example"><br>
 
+            <!-- Criação do Radio para seleção de imóvel "Casa" (ln= 51-56) -->
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label" for="flexRadioDefault1">
                   Casa
                 </label>
-
-                
             </div>
+            <!-- Criação do Radio para seleção de imóvel "Apartamento" (ln= 58-63) -->            
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label" for="flexRadioDefault1">
                   Apto
                 </label>
             </div>
+            <!-- Criação do Radio para seleção de imóvel "Terreno" (ln= 65-70) -->
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label" for="flexRadioDefault1">
                   Terreno
                 </label>
             </div>
+            <!-- Criação do Radio para seleção de imóvel "Comercial" (ln= 72-77) -->
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label" for="flexRadioDefault1">
                   Comercial
                 </label>
             </div>
+            <!-- Criação do Radio para seleção de imóvel "Kitnet" (ln= 79-84) -->
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label" for="flexRadioDefault1">
                   Kitnet
                 </label>
             </div>
+            <!-- Criação do Radio para seleção de imóvel "Outro" com campo para digitação do tipo de imóvel (ln= 86-92) -->
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label" for="flexRadioDefault1">
