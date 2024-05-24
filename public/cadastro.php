@@ -33,22 +33,41 @@
   </div>
 </nav>              
     </head>
-    <body>
-    
-                
+    <body>                
 <br>
-<!-- Criação do card "Ficha de Captação" (ln= 41-88) -->
-<div class="card" style="width: 28rem;">
+
+<div class="card text-center" style="width: 120rem;">
   <div class="card-header">
     <h5 class="card-title">Ficha de Captação</h5>
   </div>
-      <ul class="list-group list-group-flush">  
+      <ul class="list-group list-group-flush"> 
+<form><br>
+  <div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3">
+    </div>
+  </div>
+  <fieldset class="row mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">Tipo do Imóvel</legend>
+    <div class="col-sm-10">
 
+<<<<<<< HEAD
+      <!-- Criação do Radio para seleção de imóvel "Casa" (ln= 51-56) -->
+      <div class="form-check form-check-inline">
+=======
         <form method="POST" action="cadastrar_action"><br>  
             <input class="form-control" type="text" placeholder="Referencial" aria-label="default input example"><br>
 
             <!-- Criação do Radio para seleção de imóvel "Casa" (ln= 51-56) -->
             <div class="form-check form-check-inline">
+>>>>>>> 59692bdd368ca40bd915b663625f37b226132cad
               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label" for="flexRadioDefault1">
                   Casa
@@ -90,20 +109,12 @@
                 </label>
                 <input class="mb-3" type="text" placeholder="Outro" aria-label="default input example">
             </div><br><br>
-            </ul>
-            </div>         
-            Quantidade de:<br><br>
-
-            Dormitório(s): <input type="number" name="dor"><br> 
-            Suíte(s): <input type="number" name="sui"><br> 
-            Sala(s): <input type="number" name="sal"><br> 
-            Banheiro(s): <input type="number" name="ban"><br> 
-            Cozinha(s): <input type="number" name="coz"><br> 
-            Quintal(is): <input type="number" name="qui"><br><br>
-            Valor(R$)<input type="number" name="val"><br>
-            <input type="submit" name=""><br>
-            
-        </form>
-        
+   
+            </div>
+  </fieldset>
+  <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>
+</div>
+    </ul>      
     </body>
 </html>
