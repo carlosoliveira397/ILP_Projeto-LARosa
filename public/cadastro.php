@@ -35,10 +35,17 @@
     </head>
     <body>
     
-                <h1>Ficha de Captação</h1>
+                
+<br>
 
-        <form>   
-            Referencial<input class="form-control" type="text" placeholder=" " aria-label="default input example"><br>
+<div class="card" style="width: 28rem;">
+  <div class="card-header">
+    <h5 class="card-title">Ficha de Captação</h5>
+  </div>
+      <ul class="list-group list-group-flush">  
+
+        <form><br>  
+            <input class="form-control" type="text" placeholder="Referencial" aria-label="default input example"><br>
 
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -79,7 +86,8 @@
                 </label>
                 <input class="mb-3" type="text" placeholder="Outro" aria-label="default input example">
             </div><br><br>
-          
+            </ul>
+            </div>         
             Quantidade de:<br><br>
 
             Dormitório(s): <input type="number" name="dor"><br> 
