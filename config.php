@@ -5,7 +5,7 @@
     */
 
     define('MYSQL_HOST', 'localhost');
-    define('MYSQL_DATABASE', 'au25');
+    define('MYSQL_DATABASE', 'larosa');
     define('MYSQL_USER', 'root');
     define('MYSQL_PASS', '');
 ?>

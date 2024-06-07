@@ -14,10 +14,18 @@
         MYSQL_PASS
     );
 
-    $dados = $gestor->query("SELECT * FROM fornecedores");
+    $dados = $gestor->query("SELECT * FROM tb_imovel");
 
-    $fornecedores = $dados->fetchALL(PDO::FETCH_ASSOC);
+    $tb_imovel = $dados->fetchALL(PDO::FETCH_ASSOC);
+
+    
+      echo '<pre>';
+      print_r(dados)
+      
 ?>
+
+<!-- HTML da página principal index 
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -66,3 +74,5 @@
     
 </body>
 </html>
+
+  -->
