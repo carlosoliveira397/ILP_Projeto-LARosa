@@ -119,7 +119,7 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th scope="col">REF</th>
+                                <th scope="col">REF TAIHTIAHTIAH</th>
                                 <th scope="col">CEP</th>
                                 <th scope="col">DORMITÓRIOS</th>
                                 <th scope="col">SUÍTE</th>
