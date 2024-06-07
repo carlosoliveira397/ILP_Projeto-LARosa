@@ -20,7 +20,7 @@
 
     
       echo '<pre>';
-      print_r(dados)
+      print_r($dados);
       
 ?>
 
